@@ -1,0 +1,26 @@
+{
+  "test_cycle_1": {
+    "test_case_1": {
+      "name": "test_case_1",
+      "result": "passed",
+      "url": "https://xxx"
+    },
+    "test_case_2": {
+      "name": "test_case_2",
+      "result": "failed",
+      "url": "https://xxx"
+    }
+  },
+  "test_cycle_2": {
+    "test_case_1": {
+      "name": "test_case_1",
+      "result": "passed",
+      "url": "https://xxx"
+    },
+    "test_case_2": {
+      "name": "test_case_2",
+      "result": "passed",
+      "url": "https://xxx"
+    }
+  }
+}

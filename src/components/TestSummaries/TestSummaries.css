@@ -1,0 +1,30 @@
+/* src/components/TestSummaries.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .passed {
+    background-color: green;
+    color: white; /* Optional: change text color for readability */
+  }
+  
+  .failed {
+    background-color: red;
+    color: white; /* Optional: change text color for readability */
+  }
