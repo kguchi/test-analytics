@@ -41,8 +41,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm ci & npm run build
-        env:
-          PUBLIC_URL: /test_summary
+        # env:
+        #   PUBLIC_URL: /test_summary
       - name: Copy index.html
         run: cp build/index.html build/404.html
       - name: Upload artifact
