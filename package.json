@@ -14,9 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "react-scripts build",
-    "postbuild": "cp build/index.html build/404.html"
+    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start"
   },
   "eslintConfig": {
     "extends": [

@@ -40,11 +40,11 @@ jobs:
       - name: Install
         run: npm install
       - name: Build
-        run: npm ci & npm run build
+        run: npm run build
         # env:
         #   PUBLIC_URL: /test_summary
-      - name: Copy index.html
-        run: cp build/index.html build/404.html
+      # - name: Copy index.html
+      #   run: cp build/index.html build/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
