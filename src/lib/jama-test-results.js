@@ -10,10 +10,10 @@ async function getTestResults() {
   // const [testData, setTestData] = useState(null);
 
   const apiUrl = 'https://umayadia-apisample.azurewebsites.net/api/persons';
-  const apiKey = process.env.API_KEY;
+  // const apiKey = process.env.API_KEY;
 
   const headers = {
-    'Authorization': `Bearer $apiKey`,
+    'Authorization': 'Bearer apiKey',
   };
 
   try {
